@@ -340,3 +340,78 @@ nav ul li a:hover{
     font-size: 20px;
     font-weight: bold;
 }
+
+
+
+
+
+/* Success story section style  */
+
+.success{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
+.success-section{
+    padding: 200px 0;
+}
+.teachers{
+    width: 100%;
+    border-radius: 10px;
+}
+.success-left h3{
+    font-size: 30px;
+    padding: 10px 0;
+}
+.success-left p{
+    font-size: 20px;
+}
+.success-right .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.success-right .card img{
+    width: 30%;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.success-right .card h3{
+    padding-bottom: 20px;
+}
+.success-right .card p{
+    font-size: 20px;
+    color: #68686B;
+}
+.success-left,
+.success-right{
+width: 50%;
+}
+.success-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.success-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.success-head h1{
+    font-size: 50px;
+}
+.success-head a{
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #6278FF;
+    border-radius: 5px;
+    color: white;
+}
