@@ -415,3 +415,98 @@ width: 50%;
     border-radius: 5px;
     color: white;
 }
+
+
+
+/* Clients section style */
+
+.client-section img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -55px;
+}
+
+.c-heading{
+    padding-bottom: 150px;
+    font-size: 50px;
+    text-align: center;
+}
+.client{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 30px;
+}
+.client p{
+    font-size: 20px;
+    color: #68686B;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.client .rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.client h4{
+    padding-top: 30px;
+    font-size: 30px;
+}
+.client .rating .reate{
+    display: flex;
+    align-items: center;
+}
+.client .reate i{
+    color: #F9B231;
+}
+.clients{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+/* Popup Section Style  */
+.popup-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 200px;
+    background-color: #3169FD;
+    border-radius: 30px;
+}
+.popup-section h1{
+    color: white;
+}
+.popup-section .btn-1{
+    padding: 20px 40px;
+    background-color: white;
+    color: #3169FD;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.popup-section .btn-1:hover{
+    background-color: transparent;
+    color: white;
+    padding: 18px 38px;
+    border: 2px solid wheat;
+}
+.popup-section .btn-2{
+    padding: 18px 38px;
+    background-color:transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.popup-section .btn-2:hover{
+    background-color: white;
+    color: #3169FD;
+}
+.popup{
+    padding: 150px 0;
+}
