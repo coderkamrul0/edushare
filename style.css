@@ -510,3 +510,46 @@ width: 50%;
 .popup{
     padding: 150px 0;
 }
+
+
+
+
+/* Footer Section style  */
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    padding: 50px 0;
+}
+.footer-section h3{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.footer-section p {
+    font-size: 20px;
+}
+.footer-section li{
+    list-style: none;
+    font-size: 20px;
+    padding: 7px 0;
+}
+.footer-section .app ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-section .touch ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    padding-top: 20px;
+}
+footer{
+    background-color: #07003B;
+    color: white;
+}
+.footer-text{
+    text-align: center;
+    padding: 20px 0;
+}
